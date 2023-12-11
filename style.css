@@ -1,0 +1,1661 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* header */
+.hero header nav {
+/* position: fixed; */
+
+}
+.hero header nav .top{
+    height: 50px;
+    background-color: rgb(44, 0, 0);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero header nav .top .left{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+}
+
+
+.hero header nav .top .right .social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    gap: 15px;
+
+}
+
+.hero header nav .top .right .social p i{
+    padding: 10px 0px;
+}
+
+.hero header nav .top .right .social p:hover{
+/* -webkit-transform: scaleX(-1); */
+transform: scaleX(-1);
+font-size: 15px;
+/* transition-delay: 2s */
+}
+
+.hero header nav .bottom{
+    height: 40px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero header nav .bottom .lawyer{
+font-size: 10px;
+color:rgb(44, 0, 0);
+}
+
+.hero header nav.bottom .lawyer h2{
+    letter-spacing: 2.5px;
+}
+
+.hero header nav .bottom .btn button{
+    font-size: 10px;
+    padding: 5px;
+    background-color: #ffffff00;
+    border: 1px solid rgb(44, 0, 0);
+    color: rgb(44, 0, 0);
+}
+
+.hero header nav .bottom .btn button:hover{
+    background-color:rgb(152, 3, 3) ;
+    color: white;
+}
+
+.hero header nav .bottom p a{
+    color:rgb(152, 3, 3)  ;
+    font-size: 10px;
+    text-decoration-style: dotted;
+}
+
+.hero header nav .menu {
+height: 30px;
+background-color: grey;
+display:flex;
+flex-direction: row;
+justify-content: end;
+align-items: center;
+/* position: relative; */
+/* padding: 5px; */
+}
+
+.hero header nav .menu .dropdown .ham{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding:4px ;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    border-radius: 3px;
+    /* outline: none; */
+    border: none;
+    cursor: pointer;
+    height: 27px;
+    /* position: absolute; */
+    /* top: 50px; */
+}
+
+
+
+.hero header nav .menu .dropdown a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 4px;
+}
+
+
+.hero header nav .menu .dropdown{
+ display: block;   
+ /* overflow: hidden; */
+ background-color: #333;
+ position: relative;
+}
+
+.hero header nav .menu .dropdown .ham{
+    background: rgb(19, 18, 18);
+   /* display: block; */
+   background: black;
+   display:block;
+   position: absolute;
+   right: 0;
+   bottom: -15px;
+   font-size: 15px;
+   /* top: 0px; */
+   /* padding: 30px 20px; */
+   
+
+}
+
+.hero header nav .menu .dropdown .ham .content{
+    display:none;
+    margin-top: 5px;
+}
+
+.hero header nav .menu .dropdown .ham .content a{
+    color: white;
+    padding: 12px 26px;
+    text-decoration: none;
+    font-size: 15px;
+    display: block;   
+    background-color: #5b5b5c;
+    /* overflow: hidden;
+    background-color: #333; */
+    
+}
+
+
+
+/* SPECIAL */
+
+.hero header .special{
+    background-image: url(img/pexels-rdne-stock-project-7841790.jpg);
+    background-size:cover;
+    /* background-position:center; */
+    background-repeat: no-repeat;
+    height:300px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left; */
+    color: white;
+    padding: 20px;
+  
+}
+
+.hero header .special .left h2{
+    font-size: 40px;
+    font-weight: 400;
+}
+
+
+.hero header .special .left .about{
+  padding-top:60px;
+}
+
+.hero header .special .left .pract{
+    padding-top:60px;
+}
+
+.hero header .special .left .contact{
+    padding-top: 60px;
+}
+
+
+.hero header .special .left p{
+    font-size: 18px;
+    margin-top:15px ;
+}
+
+.hero header .special .left button{
+    font-size: 12px;
+    padding: 15px;
+    color: white;
+    /* background-color: brown; */
+    background: linear-gradient(to left, brown 50%, orange 50%) right;
+    background-size: 200%;
+    transition: .6s ease-out;
+    border: none;
+    outline: none;
+    margin-top:15px ;
+}
+
+.hero header .special .left button:hover{
+    background-position: left;
+}
+
+.hero .arrow .fa-arrow-turn-up{
+    display: none;
+    color: white;
+    width: 35px;
+    height: 35px;
+    font-size: 10px;
+    border-radius: 50%;
+    background-color:#b40000;
+    position:fixed;
+    z-index: 99;
+    left:360px;
+}
+
+
+
+/* CONTACT */
+.hero .get{
+width: 100%;
+min-height: 100vh;
+/* display: flex;
+justify-content: center;
+align-items: center; */
+}
+
+.hero .get h3{
+padding-left: 20px;
+font-size: 30px;
+color: #2d0000;
+}
+
+.hero .get form{
+   /* width: 100%; */
+   /* background-color: #b40000; */
+   padding: 20px;
+}
+
+.hero .get form textarea{
+    width: 350px;
+}
+
+.hero .get form input{
+    width: 340px;
+    height: 50px;
+    outline: none;
+    border: 1px solid grey;
+    color: #060606;
+    margin-top: 10px;
+    padding-left: 10px;
+    color: rgb(94, 89, 89);
+    background-color:rgb(229, 229, 225);
+}
+
+.hero .get form button{
+    height: 55px;
+    width: 130px;
+    background-color: transparent;
+    border: 1px solid #b40000;
+    outline: none;
+    color: #b40000;
+    margin-top: 25px;
+}
+
+.hero .get form button:hover{
+    color: white;
+    background-color: #bd0000b3;
+}
+
+.hero .touch .con{
+padding-left: 20px;
+}
+
+.hero .touch .con .font{
+    display: flex;
+    align-items: center;
+    color: grey;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
+
+.hero .touch .con .font p{
+    font-size: 18px;
+    padding-left: 12px;
+    color: black;
+}
+
+.hero .touch .con .font p span{
+color: grey;
+}
+
+
+
+
+/* BLOG */
+.hero .main{
+background-color: yellow;
+/* width: 100%; */
+height: 100vh;
+display: flex;
+/* justify-content: center; */
+align-items: center;
+flex-wrap: wrap;
+}
+
+.hero .main .left{
+    /* background-color: #7f819a; */
+    /* padding: 71px 0px; */
+    min-height: 100vh;
+    align-items: center;
+
+}
+
+.hero .main .left .card {
+min-height:48vh ;
+/* box-shadow:3px 3px 3px solid; */
+}
+
+.hero .main .left .card .img{
+    background-image: url(img/pexels-alena-darmel-6940278.jpg);
+    height: 170px;
+    width: 370px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   margin-bottom: 30px;
+
+}
+
+
+.hero .main .left .card .img .span{
+    background-color: #b40000;
+    color: white;
+    width: 60px;
+    height: 65px;
+    text-align: center;
+    position: relative;
+    top: 120px;
+    left: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 8px;
+    outline: none;
+    border: none;
+}
+
+.hero .main .left .card .img .span:hover{
+    background-color: transparent;
+    color: #b40000;
+}
+
+
+.hero .main .left .card .img .span span{
+    font-weight: 900;
+    padding-right: 20px;
+}
+
+.hero .main .left .card .info{
+padding-left: 20px;
+
+
+}
+
+.hero .main .left .card .info a{
+    font-family:serif ;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.hero .main .left .card .info a:hover{
+    color: #b40000;
+}
+
+.hero .main .left .card .info p{
+    font-size: 17px;
+    color: #7f819a;
+    padding:21px 0px;
+    line-height: 20px;
+  
+}
+
+
+.hero .main .left .card .info .travel a{
+    color: #7f819a;
+    font-size: 16px;
+}
+
+.hero .main .left .card .info .travel a:hover{
+color: #b40000;
+cursor: pointer;
+
+}
+
+.hero .main .left .card .info .travel span{
+    padding:10px;
+}
+
+.hero .main .right{
+/* width: 100%; */
+background-color: #ff6f00;
+/* height: 200vh; */
+}
+
+.hero .main .right .search{
+    text-align: center;
+    padding: 10px;
+    background-color: #e1e1e8;
+}
+
+.hero .main .right .search input{
+    text-align: center;
+    color: #7f819a;
+    width: 200px;
+    height: 40px;
+    outline: none;
+    border: none;
+}
+
+.hero .main .right .search button{
+    width: 100px;
+    height: 40px;
+    background-color: #b40000;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 18px;
+}
+
+
+.hero .main .right .category{
+    padding-top: 50px;
+    padding-left: 30px;
+    font-size: 20px;
+    /* gap: 30px; */
+}
+
+.hero .main .right .category h3{
+    font-weight: 100;
+}
+
+
+.hero .main .right .category ul{
+    padding-top: 20px;
+    list-style: none;
+}
+
+.hero .main .right .category ul li{
+    padding-top: 25px;
+    
+}
+
+.hero .main .right .category ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(66, 65, 65);
+    font-weight: 100;
+   
+}
+
+.hero .main .right .recent{
+    text-align: left;
+    padding-top: 25px;
+    padding-left: 30px;
+    font-size: 20px;
+    
+}
+
+
+.hero .main .right .recent h3{
+    font-weight: 100;
+}
+
+.hero .main .right .recent ul{
+    list-style: none;
+}
+
+.hero .main .right .recent ul li{
+    display: flex;
+    padding-top: 25px;
+}
+
+.hero .main .right .recent ul img{
+    height: 80px;
+    width: 80px;
+}
+
+.hero .main .right .recent ul li p{
+    padding: 20px;
+    font-size: 15px;
+}
+
+.hero .main .right .recent ul li p a{
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(66, 65, 65);
+    font-weight: 100;
+}
+
+
+.hero .main .right .clouds h3{
+    margin-top: 30px;
+    margin-bottom: 24px;
+    font-weight: 100;
+
+}
+
+
+.hero .main .right .clouds .btn{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-start;
+    flex-wrap: wrap;
+    height: 100px;
+}
+.hero .main .right .clouds button{
+   font-size: 20px;
+    padding: 6px;
+    color: #7f819a;
+    outline: none; 
+    border: none;
+}
+
+.hero .main .right .clouds button:hover{
+    color: white;
+    background-color: #b40000;
+}
+
+.hero .main .right .insta{
+margin-top: 10px;
+}
+
+.hero .main .right .insta h3{
+padding: 20px 0px;
+font-weight: 100;
+}
+
+.hero .main .right .insta .img img{
+width: 100px;
+height:100px;
+padding: 6px;
+}
+
+.hero .main .right .news h3{
+    margin-top: 30px;
+    font-weight: 100;
+    color: black;
+    margin-bottom: 30px;
+}
+
+.hero .main .right .news input{
+    width: 300px;
+    height: 40px;
+    color: #2d0000;
+    outline: none;
+}
+
+.hero .main .right .news button{
+    width: 300px;
+    height: 50px;
+    margin-top: 10px;
+text-align: center;
+background-color: transparent;
+font-size: 16px;
+border: 1px solid #b40000;
+color: #b40000;
+
+}
+
+.hero .main .right .news button:hover{
+    color: white;
+    background-color: #b40000;
+}
+
+
+
+/* Experience */
+.experience{
+    padding: 50px 10px;
+    height:100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.experience .img{
+position: relative;
+}
+
+.experience .img img{
+    height: 429px;
+    border-top-left-radius: 100px;
+}
+
+.experience .img .years{
+    background-color:rgb(161, 3, 3);
+    width: 110px;
+    height: 110px;
+    color: white;
+    position: absolute;
+    right: 67.5%;
+    top: 80%;
+    text-align: center;
+    padding: 5px;
+    
+}
+
+.experience .img .years h1{
+font-size:60px ;
+}
+
+
+.experience .lawyers{
+    text-align: start;
+    height: 40%;
+    padding-top: 45px;
+}
+
+.experience .lawyers h2{
+    font-weight: 400;
+    padding: 9px 0;
+
+}
+
+.experience .lawyers p{
+    padding: 9px 0;
+}
+
+.experience .lawyers .table{
+    color: rgb(95, 94, 94);
+    font-weight: 100;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.experience .lawyers .Reuben{
+    font-weight: 500;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.experience .lawyers .Reuben small{
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(95, 94, 94);
+}
+
+/* practice */
+.hero .practice{
+    text-align: center;
+    background-color:#f8f4f4;
+    height:300vh;
+}
+
+.hero .practice .area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.hero .practice h2{
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.hero .practice .container{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    /* height:50vh; */
+}
+
+.hero .practice .container .left{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hero .practice .container .left .card{
+    background-color: #ffffff;
+    margin: 7px;
+    text-align: center;
+    padding: 30px 5px;
+}
+
+.hero .practice .container .left .card .font{
+    background-color: rgb(251,242,242);
+    padding: 5px;
+    width: 38px;
+    height:38px;
+    border-radius: 50px;
+    /* color: blue; */
+    color: rgb(180,0,0);
+    font-size: 38px;
+}
+
+.hero .practice .container .left .card h4{
+margin: 20px;
+font-size: 23px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 100;
+}
+
+.hero .practice .container .left .card .bring{
+    color: #7f819a;
+    font-size: 21px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero .practice .container2{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-top: 60px;
+    padding: 0px 30px;
+    background-color: #b40000;
+    /* height: 50vh; */
+    color: white;
+    border-top-right-radius: 50px;
+}
+
+.hero .practice .form-container2{
+    margin: 7px;
+    padding-top: 30px;
+    /* height: 70vh; */
+    min-height: 70vh;
+}
+
+.hero .practice .container2 .form-container2 h2{
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* padding: 20px 10px; */
+}
+
+.hero .practice .container2 .form-container2 p{
+font-size: 16px;
+/* word-spacing: 5px; */
+padding-top: 10px;
+padding-bottom: 10px;
+    
+}
+
+.hero .practice .container2  .form-container2 form{
+    padding-top: 20px;
+}
+
+.hero .practice .container2 .form-container2 form input{
+    width: 100%;
+    height: 38px;
+    margin-bottom: 10px;
+    color: white;
+    background-color:transparent;
+    border:1px solid white;
+   outline-color: rgb(236, 156, 6);
+   outline-style: 1px solid rgb(236, 156, 6);
+    /* padding: 0px 10px; */
+    font-size: 16px;
+}
+
+::placeholder{
+    color: white;
+}
+
+.hero .practice .container2 .form-container2 form select{
+    width: 100%;
+    height: 38px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: transparent;
+    border:1px solid white;
+    font-size: 16px;
+}
+
+.hero .practice .container2 .form-container2 form option{
+    background-color: white;
+    color: black;
+}
+
+.hero .practice .container2 .form-container2 form textarea{ 
+    background-color: transparent;
+    width: 100%;
+    color: white;
+    background-color: transparent;
+    border:1px solid white;
+    font-size: 16px;
+}
+
+.hero .practice .container2 .form-container2 form textarea::placeholder{
+padding:20px 30px;
+}
+
+.hero .practice .container2 .form-container2 form button{
+    height: 38px;
+    width: 100%;
+    /* background-color: #ff6f00; */
+    background: linear-gradient(to left, #ff6f00 50%, white 50%) right;
+    background-size: 200%;
+    transition: .6s ease-out;
+    color: white;
+    border:none;
+    outline: none;
+}
+
+.hero .practice .container2 .form-container2 form button:hover{
+    background-position: left;
+    color: #ff6f00;
+}
+
+.hero .area .practice .us{
+    padding-bottom: 20px;
+}
+
+.hero .choose{
+    text-align: center;
+    margin-top: 20px;
+   height:50vh;
+   background-color: white;
+    /* width: 100%; */
+}
+
+.hero .choose h4{
+    color:  #b40000;
+    font-size: 22px;
+    padding: 20px;
+}
+
+.hero .choose .professional{
+    color:black;
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+.hero .choose .p{
+    color:#7f819a;
+    font-size: 18.5px;
+    padding-bottom: 30px;
+}
+
+.hero .choose button{
+    height: 38px;
+    width: 50%;
+    /* background-color:  #b40000; */
+    background: linear-gradient(to left, #b40000 50%, rgb(255, 123, 0) 50%) right;
+    background-size: 200%;
+    transition: .6s ease-out;
+    color: white;
+    border:none;
+    outline: none;
+}
+
+.hero .choose button:hover{
+    background-position: left;
+}
+
+/* client */
+
+.hero .client{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #bd0000; */
+    height: 60vh;
+    width: 100%;
+    /* flex-wrap: wrap; */
+    }
+
+.hero .client .bg-left{
+    background-image: url(img/sculptures\ \(1\).jpg);
+/* background-image: url(/img/sculptures\ \(2\).jpg); */
+/* background-position: center; */
+background-repeat: no-repeat;
+background-size: cover;
+text-align: left;
+height: 50vh;
+color: white;
+}
+
+.hero .client .bg-left .bg{
+padding: 90px 30px;
+
+}
+
+.hero .client .bg-left h2{
+    font-size: 30px;
+   font-weight: 500;
+    padding-bottom: 20px;
+   
+}
+
+.hero .client .bg-left .bg h2 span{
+    width: 20px;
+    height: 23px;
+    color: red;
+    background-color:#ff6f00;
+}
+
+.hero .client .bg-left p{
+font-size: 18px;
+padding-bottom: 20px;
+}
+
+.hero .client .bg-left .reuben{
+display: flex;
+justify-content:left;
+align-items: center;
+padding: 10px;
+}
+
+.hero .client .bg-left .reuben img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.hero .client .bg-left .reuben p{
+    font-size: 20px;
+    font-weight: 100;
+    padding: 10px;
+}
+
+
+ 
+ .hero .client .bg-right{
+    background-image:  linear-gradient(to left, #bd0000b3, rgba(231, 224, 224, 0.504)), url(/img/sculptures\ \(2\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: #ff6f00; */
+    height: 50vh;
+    width: 50%;
+    color: white;
+    text-align: left;
+    /* padding-top: 30px;
+    padding-left:30px ; */
+    display: none;
+    }
+    
+    .hero .client .bg-right .bg{
+        padding: 50px 170px;
+    }
+    
+    .hero .client .bg-right h2{
+        font-size: 40px;
+        padding-bottom: 20px;
+       
+    }
+    
+    .hero .client .bg-right h2 span{
+        /* text-decoration:line-through; */
+        color:#ff6f00;
+    }
+    
+    .hero .client .bg-right p{
+    font-size: 27px;
+    padding-bottom: 10px;
+    }
+    
+    .hero .client .bg-right .reuben{
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    /* padding: 20px; */
+    }
+    
+    .hero .client .bg-right .reuben img{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+    
+    .hero .client .bg-right .reuben p{
+        font-size: 19px;
+        font-weight: 100;
+        padding: 20px;
+    }
+    
+    /* Recent */
+
+    .hero .recent{
+        text-align: center;
+        height:170vh;
+        /* background-color: aqua; */
+    }
+
+    .hero .recent h1{
+        font-weight: 100;
+        font-size: 25px;
+        padding: 20px;
+    }
+
+    .hero .recent p{
+        color: grey;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 40px;
+
+    }
+
+    .hero .recent .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 120vh;
+        /* background-color: #ff6f00; */
+    }
+
+    .hero .recent .container .img img{
+        width: 360px;
+        height: 300px;
+        
+        border-top-left-radius: 100px;
+        /* border:2px solid white; */
+    }
+
+    .hero .recent .container .img .tax{
+        background-color: white;
+        text-align: start;
+        width:300px;
+        padding:10px 20px;
+        position: relative;
+        left: 20px;
+        bottom: 40px;
+        /* background-color: tomato; */
+    
+    }
+
+    .hero .recent .container .img .tax h4 {
+        padding: 10px;
+        color: #b40000;
+    }
+
+    .hero .recent .container .img .tax .lawyer{
+        padding: 0px;
+    }
+
+    .hero .recent .container .img .tax .lawyer a{
+        color: black;
+        /* margin-right: 9px; */
+        padding:9px;
+        text-align:left;
+        text-decoration: none;
+        font-size: 15px;
+    }
+
+    .hero .recent .container .img .tax .lawyer a:hover{
+        color: #b40000;
+    }
+
+    .hero .recent .container .img .tax .bring{
+        color: grey;
+        padding: 10px;
+    }
+
+    .hero .recent .container .img .tax .read{
+        padding: 0px;
+
+    }
+
+    .hero .recent .container .img .tax .read a{
+        color: black;
+        padding: 10px;
+        text-decoration: none;
+        border-bottom: 3px solid #b40000;
+    }
+
+    .hero .recent .container .img .tax .read a:hover{
+        letter-spacing: 1px;
+        transition: width 3sec;
+        /* transition-delay: 5sec; */
+    }
+
+
+    /* footer */
+    .hero footer{
+        background-color: #2d0000;
+        min-height: 100vh;
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero .foot{
+        width: 100%;
+    }
+
+    .hero #footer{
+        min-height: 50vh;
+        /* width: 100%; */
+    }
+
+    .hero .cont-footer{
+        min-height: 50vh;
+    }
+
+    .hero footer .top{
+       height: 30vh;
+       width: 100%;
+       background-color: #EFE2E2;
+       text-align: left;
+    }
+
+    .hero footer .space{
+        min-height: 25vh;
+        
+    }
+
+    .hero footer .top .legal{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .hero footer .top .legal img{
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        border:2px solid #b40000;
+    }
+
+    .hero footer .top .legal .jackson{
+        text-align: left;
+        padding-bottom: 0px;
+        
+    }
+
+    .hero footer .top .legal .jackson h2{
+        font-weight: 900;
+        padding-left: 15px;
+    }
+
+    .hero footer .top .legal .jackson p{
+        font-weight: 200;
+        color: rgb(20, 18, 18);
+    }
+
+    .hero footer .top .call{
+       padding-left: 60px;
+       /* padding-top: 0px; */
+    }
+
+    .hero footer .top .call p{
+        color: rgb(173, 161, 167);
+        font-size: 12px;
+        padding-left: 9px;
+        padding-bottom: 5px;
+    }
+
+    .hero footer .top .call button i{
+        font-size:12px ;
+       
+    }
+
+    .hero footer .top .call button{
+        color:white;
+        background-color: #b40000;
+        font-size: 12px;
+        padding: 12px;
+        border-radius: 55px;
+        outline: none;
+        border: none;
+        font-weight: 900;
+        /* width: 10px; */ 
+        /* word-spacing: 3px; */
+        letter-spacing: 1px;
+
+    }
+
+    /* .hero footer .img{
+        width: 230px;
+        height: 200px;
+        background-color: aquamarine;
+    } */
+
+    .hero footer .img img{
+        width: 180px;
+        height: 150px;
+        /* background-color: rgb(0, 255, 174); */
+    }
+
+    .hero footer p{
+        color: white;
+        font-size: 19px;
+        font-weight: 200;
+        padding-left: 17px;
+        padding-right: 17px;
+    }
+    .hero footer .links ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px;
+        font-size: 20px;
+        list-style: none;
+    }
+
+    .hero footer .links ul li a{
+        color: white;
+        text-decoration: none;
+    }
+
+    .hero footer .links ul li a:hover{
+        color: #ff6f00;
+    }
+
+    .hero footer .appoint{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px;
+        border-top:2px solid grey;
+        border-bottom: 2px solid grey;
+    }
+
+    /* .hero .footer span{
+        color: grey;
+        height: 25px;
+        width: 80%;        
+    } */
+     
+    .hero footer .appoint .left ul{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 19px;
+        color: white;
+        gap: 15px;
+        list-style: none;
+
+    }
+
+    .hero footer .appoint .left ul li:hover{
+        transform: scaleX(-1);
+        font-size: 15px;
+    }
+
+    .hero footer .appoint button{
+        background-color: white;
+        color: #b40000;
+        padding: 15px;
+        font-size: 15px;
+        outline: none;
+        border: none;
+
+    }
+
+    .hero footer .appoint button:hover{
+        background-color: transparent;
+        border: 1px solid white;
+        color: white;
+    }
+
+    .hero footer .copyright{
+        color: rgb(189, 168, 168);
+        padding: 25px;
+    }
+
+    .hero footer .copyright i{
+        color: orange;
+    }
+
+       .hero footer .copyright a{
+        color: orange;
+        text-decoration: none;
+    }
+
+
+    /* Media Query */
+
+@media only screen and (max-width: 768px) {
+
+    /* start of practice */
+    .hero .practice .container .left .card{
+        /* width: 350px; */
+    }
+/*   
+    .hero .practice .form-container2{
+        margin: 5px;
+        padding-top: 15px;   
+        height: 80vh;
+    }
+    
+    .hero .practice .container2{
+    height: 79vh;
+    }
+    
+    .hero .practice .container2 .form-container2 p{
+    font-size: 18px;
+    }
+
+    .hero .practice .container2  .form-container2 form{
+        padding-top: 18px;
+    } */
+    
+    /* end of practice */
+      
+    /* Start of recent */
+/*     
+    .hero .recent{
+        height:140vh;
+    }
+
+    .hero .recent h1{
+        font-size: 35px;
+        padding: 14px;
+    }
+
+    .hero .recent p{
+        font-size: 22px;
+    }
+
+    .hero .recent .container{
+        height: 100vh;
+    }
+
+    .hero .recent .container .img img{
+        width: 290px;
+        height: 200px;
+    }
+    
+    .hero .recent .container .img .tax{
+        width:300px;
+        padding:10px 0px;
+    }
+
+    .hero .recent .container .img .tax .lawyer a{
+        font-size: 13px;
+    }
+
+    .hero .recent .container .img .tax .bring{
+        padding: 8px;
+        font-size: 13px;
+    }
+
+    .hero .recent .container .img .tax .read a{
+        font-size: 14px;
+    }
+ */
+
+    /* End of recent */
+
+    /* start of blog */
+    .hero .main{
+        height: 510vh;
+        }
+        
+
+    /* End of blog */
+
+    /* start of footer */
+/* 
+    .hero .bottom{
+        height: 28vh;
+        width: 100%;
+    }
+
+    .hero footer .top{
+       height: 30vh;
+       width: 95%;
+       position:relative;
+       bottom: 90px;
+       
+    }
+
+
+    .hero footer .top .call{
+       padding-left: 120px;
+    } */
+
+
+    /* end of footer */
+}
+
+@media screen and (max-width: 1080px){
+
+/* start of experience */
+/* .experience{
+    padding: 50px 10px;
+    height:100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.experience .img{
+position: relative;
+} */
+
+.experience .img img{
+    /* height: 500px; */
+    /* width: 500px; */
+}
+/* 
+.experience .img .years{
+    background-color:rgb(161, 3, 3);
+    width: 110px;
+    height: 110px;
+    color: white;
+    position: absolute;
+    right: 76%;
+    top: 80%;
+    text-align: center;
+    padding: 5px;
+    
+}
+
+.experience .img .years h1{
+font-size:60px ;
+}
+
+
+.experience .lawyers{
+    text-align: start;
+    height: 40%;
+    padding-top: 45px;
+}
+
+.experience .lawyers h2{
+    font-weight: 400;
+    padding: 9px 0;
+
+}
+
+.experience .lawyers p{
+    padding: 9px 0;
+}
+
+.experience .lawyers .table{
+    color: rgb(95, 94, 94);
+    font-weight: 100;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.experience .lawyers .Reuben{
+    font-weight: 500;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.experience .lawyers .Reuben small{
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(95, 94, 94);
+} */
+
+/* end of experience */
+
+
+/* START OF BLOG */
+.hero .main{
+    /* height: 510vh; */
+    }
+/* End of blog */
+
+/* start of practice */
+/* .hero .practice{
+    text-align: center;
+    background-color:#f8f4f4;
+    height:210vh;
+}
+
+.hero .practice .area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.hero .practice h2{
+    font-size: 25px;
+    font-weight: 100;
+} */
+
+.hero .practice .container{
+    /* display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; */
+}
+/* 
+.hero .practice .container .left{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hero .practice .container .left .card{
+    background-color: #ffffff;
+    margin: 7px;
+    text-align: center;
+    padding: 30px 5px;
+}
+
+.hero .practice .container .left .card .font{
+    background-color: rgb(251,242,242);
+    padding: 5px;
+    width: 38px;
+    height:38px;
+    border-radius: 50px;
+    color: rgb(180,0,0);
+    font-size: 38px;
+}
+
+.hero .practice .container2{
+    height: 80vh;
+}
+
+.hero .practice .form-container2{
+    padding-top: 20px;
+}
+
+
+.hero .practice .container2  .form-container2 form{
+    padding-top: 20px;
+}
+
+.hero .practice .container2 .form-container2 form input{
+    width: 100%;
+    height: 38px;
+    margin-bottom: 10px;
+    color: white;
+    background-color:transparent;
+    border:1px solid white;
+   outline-color: rgb(236, 156, 6);
+   outline-style: 1px solid rgb(236, 156, 6);
+    font-size: 16px;
+}
+
+::placeholder{
+    color: white;
+}
+
+.hero .practice .container2 .form-container2 form select{
+    width: 100%;
+    height: 38px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: transparent;
+    border:1px solid white;
+    font-size: 16px;
+}
+
+.hero .practice .container2 .form-container2 form option{
+    background-color: white;
+    color: black;
+}
+
+.hero .practice .container2 .form-container2 form textarea{ 
+    background-color: transparent;
+    width: 100%;
+    color: white;
+    background-color: transparent;
+    border:1px solid white;
+    font-size: 16px;
+}
+
+.hero .practice .container2 .form-container2 form textarea::placeholder{
+padding:20px 30px;
+}
+
+.hero .practice .container2 .form-container2 form button{
+    height: 38px;
+    width: 100%;
+    background: linear-gradient(to left, #ff6f00 50%, white 50%) right;
+    background-size: 200%;
+    transition: .6s ease-out;
+    color: white;
+    border:none;
+    outline: none;
+}
+
+.hero .practice .container2 .form-container2 form button:hover{
+    background-position: left;
+    color: #ff6f00;
+}
+
+.hero .practice .choose{
+    text-align: center;
+   height:100%;
+   background-color: white;
+    width: 100%;
+}
+
+.hero .area .practice .us{
+    padding-bottom: 20px;
+}
+
+.hero .practice .choose h4{
+    color:  #b40000;
+    font-size: 25px;
+    padding: 20px;
+}
+
+.hero .practice .choose .professional{
+    color:black;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.hero .practice .choose p{
+    color:#7f819a;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.hero .practice .choose button{
+    height: 38px;
+    width: 50%;
+    background: linear-gradient(to left, #b40000 50%, rgb(255, 123, 0) 50%) right;
+    background-size: 200%;
+    transition: .6s ease-out;
+    color: white;
+    border:none;
+    outline: none;
+}
+
+.hero .practice .choose button:hover{
+    background-position: left;
+} */
+
+
+
+/* end of practice */
+
+
+}
+
+
