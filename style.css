@@ -622,24 +622,27 @@ position: relative;
     border-top-left-radius: 100px;
 }
 
+
 .experience .img .years{
     background-color:rgb(161, 3, 3);
-    width: 110px;
-    height: 110px;
+    width: 60px;
+    height: 60px;
     color: white;
     position: absolute;
-    right: 67.5%;
-    top: 80%;
+    right: 75%;
+    top: 90%;
     text-align: center;
     padding: 5px;
     
 }
 
 .experience .img .years h1{
-font-size:60px ;
+font-size:15px ;
 }
 
-
+.experience .img .years p{
+font-size:10px ;
+}
 .experience .lawyers{
     text-align: start;
     height: 30%;
