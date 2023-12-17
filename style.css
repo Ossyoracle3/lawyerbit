@@ -913,7 +913,7 @@ padding:20px 30px;
 background-repeat: no-repeat;
 background-size: cover;
 text-align: left;
-height: 30vh;
+min-height: 30vh;
 color: white;
 }
 
